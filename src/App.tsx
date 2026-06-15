@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import type { Match, Participant } from './types'
-import { isSiteAuthed, getCurrentUser } from './lib/auth'
+import { getCurrentUser, setCurrentUser } from './lib/auth'
 import LoginView from './views/LoginView'
 import NextUpView from './views/NextUpView'
 import MyScoreView from './views/MyScoreView'
@@ -13,7 +13,6 @@ import participantsData from './data/participants.json'
 const BASE = import.meta.env.BASE_URL
 
 export default function App() {
-  const [authed, setAuthed] = useState(isSiteAuthed())
   const [userId, setUserId] = useState<string | null>(getCurrentUser())
   const [matches, setMatches] = useState<Match[]>([])
   const participants = participantsData as unknown as Participant[]
@@ -25,10 +24,6 @@ export default function App() {
       .catch(console.error)
   }, [])
 
-  if (!authed) {
-    return <LoginView onAuth={() => setAuthed(true)} />
-  }
-
   const currentParticipant = userId
     ? participants.find(p => p.id === userId) ?? null
     : null
@@ -36,9 +31,7 @@ export default function App() {
   if (!currentParticipant) {
     return (
       <LoginView
-        onAuth={() => setAuthed(true)}
-        skipPassword
-        onSelectUser={(id) => setUserId(id)}
+        onSelectUser={(id) => { setCurrentUser(id); setUserId(id) }}
         participants={participants}
       />
     )
@@ -63,7 +56,7 @@ export default function App() {
           } />
         </Routes>
       </div>
-      <BottomNav onLogout={() => { setUserId(null) }} />
+      <BottomNav />
     </div>
   )
 }
