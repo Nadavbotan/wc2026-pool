@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import type { Match, Participant } from './types'
+import type { LeaderboardData } from './views/LeaderboardView'
 import { getCurrentUser, setCurrentUser } from './lib/auth'
 import LoginView from './views/LoginView'
 import NextUpView from './views/NextUpView'
@@ -15,12 +16,18 @@ const BASE = import.meta.env.BASE_URL
 export default function App() {
   const [userId, setUserId] = useState<string | null>(getCurrentUser())
   const [matches, setMatches] = useState<Match[]>([])
+  const [leaderboard, setLeaderboard] = useState<LeaderboardData | null>(null)
   const participants = participantsData as unknown as Participant[]
 
   useEffect(() => {
     fetch(`${BASE}data/matches.json`)
       .then(r => r.json())
       .then(setMatches)
+      .catch(console.error)
+
+    fetch(`${BASE}data/leaderboard.json`)
+      .then(r => r.json())
+      .then(setLeaderboard)
       .catch(console.error)
   }, [])
 
@@ -52,7 +59,7 @@ export default function App() {
             <GroupsView matches={matches} participant={currentParticipant} />
           } />
           <Route path="/leaderboard" element={
-            <LeaderboardView matches={matches} participants={participants} currentId={userId!} />
+            <LeaderboardView leaderboard={leaderboard} currentName="Nadav" />
           } />
         </Routes>
       </div>
