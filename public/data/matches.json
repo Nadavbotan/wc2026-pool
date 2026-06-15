@@ -134,13 +134,13 @@
   {
     "id": 537369,
     "utcDate": "2026-06-15T16:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
     "homeTeam": "Spain",
     "awayTeam": "Cape Verde Islands",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537363,
