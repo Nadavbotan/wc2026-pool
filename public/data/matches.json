@@ -222,13 +222,13 @@
   {
     "id": 537403,
     "utcDate": "2026-06-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
     "homeTeam": "Portugal",
     "awayTeam": "Congo DR",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "id": 537409,
