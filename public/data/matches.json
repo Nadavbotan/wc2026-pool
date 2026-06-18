@@ -233,7 +233,7 @@
   {
     "id": 537409,
     "utcDate": "2026-06-17T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
     "homeTeam": "England",
@@ -244,13 +244,13 @@
   {
     "id": 537410,
     "utcDate": "2026-06-17T23:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
     "homeTeam": "Ghana",
     "awayTeam": "Panama",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537404,
