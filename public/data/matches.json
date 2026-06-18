@@ -266,13 +266,13 @@
   {
     "id": 537329,
     "utcDate": "2026-06-18T16:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
     "homeTeam": "Czechia",
     "awayTeam": "South Africa",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "id": 537335,
