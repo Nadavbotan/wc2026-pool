@@ -288,24 +288,24 @@
   {
     "id": 537336,
     "utcDate": "2026-06-18T22:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
     "homeTeam": "Canada",
     "awayTeam": "Qatar",
-    "homeScore": 5,
+    "homeScore": 6,
     "awayScore": 0
   },
   {
     "id": 537330,
     "utcDate": "2026-06-19T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
     "homeTeam": "Mexico",
     "awayTeam": "South Korea",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "id": 537348,
