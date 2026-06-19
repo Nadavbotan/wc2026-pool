@@ -29,8 +29,8 @@
     "group": "GROUP_B",
     "homeTeam": "Canada",
     "awayTeam": "Bosnia-Herzegovina",
-    "homeScore": 1,
-    "awayScore": 1
+    "homeScore": null,
+    "awayScore": null
   },
   {
     "id": 537345,
@@ -310,13 +310,13 @@
   {
     "id": 537348,
     "utcDate": "2026-06-19T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
     "homeTeam": "United States",
     "awayTeam": "Australia",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 0
   },
   {
     "id": 537342,
