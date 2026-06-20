@@ -29,8 +29,8 @@
     "group": "GROUP_B",
     "homeTeam": "Canada",
     "awayTeam": "Bosnia-Herzegovina",
-    "homeScore": 1,
-    "awayScore": 1
+    "homeScore": null,
+    "awayScore": null
   },
   {
     "id": 537345,
