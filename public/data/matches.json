@@ -321,13 +321,13 @@
   {
     "id": 537342,
     "utcDate": "2026-06-19T22:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
     "homeTeam": "Scotland",
     "awayTeam": "Morocco",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "id": 537341,
