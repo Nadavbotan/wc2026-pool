@@ -376,13 +376,13 @@
   {
     "id": 537354,
     "utcDate": "2026-06-21T00:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
     "homeTeam": "Ecuador",
     "awayTeam": "Cura\u00e7ao",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537360,
