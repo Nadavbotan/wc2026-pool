@@ -403,19 +403,19 @@
     "group": "GROUP_H",
     "homeTeam": "Spain",
     "awayTeam": "Saudi Arabia",
-    "homeScore": 5,
+    "homeScore": 4,
     "awayScore": 0
   },
   {
     "id": 537365,
     "utcDate": "2026-06-21T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
     "homeTeam": "Belgium",
     "awayTeam": "Iran",
     "homeScore": 0,
-    "awayScore": 1
+    "awayScore": 0
   },
   {
     "id": 537372,
