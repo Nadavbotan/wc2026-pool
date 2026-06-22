@@ -453,13 +453,13 @@
   {
     "id": 537393,
     "utcDate": "2026-06-22T21:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
     "homeTeam": "France",
     "awayTeam": "Iraq",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "id": 537394,
