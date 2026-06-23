@@ -486,13 +486,13 @@
   {
     "id": 537405,
     "utcDate": "2026-06-23T17:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
     "homeTeam": "Portugal",
     "awayTeam": "Uzbekistan",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 3,
+    "awayScore": 0
   },
   {
     "id": 537411,
@@ -819,7 +819,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Germany",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -863,7 +863,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Mexico",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -896,7 +896,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "United States",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
