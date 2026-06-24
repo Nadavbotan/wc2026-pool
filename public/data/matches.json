@@ -29,8 +29,8 @@
     "group": "GROUP_B",
     "homeTeam": "Canada",
     "awayTeam": "Bosnia-Herzegovina",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "id": 537345,
@@ -819,7 +819,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "Germany",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -863,7 +863,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "Mexico",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -896,7 +896,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "United States",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -951,7 +951,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "Argentina",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
