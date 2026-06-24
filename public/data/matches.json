@@ -552,24 +552,24 @@
   {
     "id": 537344,
     "utcDate": "2026-06-24T22:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
     "homeTeam": "Morocco",
     "awayTeam": "Haiti",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 2
   },
   {
     "id": 537343,
     "utcDate": "2026-06-24T22:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
     "homeTeam": "Scotland",
     "awayTeam": "Brazil",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 2
   },
   {
     "id": 537331,
