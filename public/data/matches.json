@@ -552,46 +552,46 @@
   {
     "id": 537344,
     "utcDate": "2026-06-24T22:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
     "homeTeam": "Morocco",
     "awayTeam": "Haiti",
-    "homeScore": 2,
+    "homeScore": 4,
     "awayScore": 2
   },
   {
     "id": 537343,
     "utcDate": "2026-06-24T22:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
     "homeTeam": "Scotland",
     "awayTeam": "Brazil",
     "homeScore": 0,
-    "awayScore": 2
+    "awayScore": 3
   },
   {
     "id": 537331,
     "utcDate": "2026-06-25T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
     "homeTeam": "Czechia",
     "awayTeam": "Mexico",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 3
   },
   {
     "id": 537332,
     "utcDate": "2026-06-25T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
     "homeTeam": "South Africa",
     "awayTeam": "South Korea",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "id": 537355,
