@@ -596,7 +596,7 @@
   {
     "id": 537355,
     "utcDate": "2026-06-25T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
     "homeTeam": "Ecuador",
@@ -607,7 +607,7 @@
   {
     "id": 537356,
     "utcDate": "2026-06-25T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
     "homeTeam": "Cura\u00e7ao",
@@ -618,24 +618,24 @@
   {
     "id": 537361,
     "utcDate": "2026-06-25T23:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
     "homeTeam": "Tunisia",
     "awayTeam": "Netherlands",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 2
   },
   {
     "id": 537362,
     "utcDate": "2026-06-25T23:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
     "homeTeam": "Japan",
     "awayTeam": "Sweden",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537349,
@@ -819,7 +819,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Germany",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -863,7 +863,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Mexico",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -896,7 +896,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "United States",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -951,7 +951,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Argentina",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
