@@ -662,23 +662,23 @@
   {
     "id": 537395,
     "utcDate": "2026-06-26T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
     "homeTeam": "Norway",
     "awayTeam": "France",
     "homeScore": 1,
-    "awayScore": 3
+    "awayScore": 4
   },
   {
     "id": 537396,
     "utcDate": "2026-06-26T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
     "homeTeam": "Senegal",
     "awayTeam": "Iraq",
-    "homeScore": 4,
+    "homeScore": 5,
     "awayScore": 0
   },
   {
@@ -797,8 +797,8 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "South Africa",
-    "awayTeam": "Canada",
+    "homeTeam": null,
+    "awayTeam": null,
     "homeScore": null,
     "awayScore": null
   },
@@ -808,8 +808,8 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Brazil",
-    "awayTeam": "Japan",
+    "homeTeam": null,
+    "awayTeam": null,
     "homeScore": null,
     "awayScore": null
   },
@@ -819,7 +819,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Germany",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -830,8 +830,8 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Netherlands",
-    "awayTeam": "Morocco",
+    "homeTeam": null,
+    "awayTeam": null,
     "homeScore": null,
     "awayScore": null
   },
@@ -863,7 +863,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Mexico",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -896,8 +896,8 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "United States",
-    "awayTeam": "Bosnia-Herzegovina",
+    "homeTeam": null,
+    "awayTeam": null,
     "homeScore": null,
     "awayScore": null
   },
@@ -929,7 +929,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Switzerland",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -940,7 +940,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Australia",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -951,7 +951,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": "Argentina",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
