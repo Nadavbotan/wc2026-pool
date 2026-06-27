@@ -706,18 +706,18 @@
   {
     "id": 537367,
     "utcDate": "2026-06-27T03:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
     "homeTeam": "New Zealand",
     "awayTeam": "Belgium",
     "homeScore": 1,
-    "awayScore": 4
+    "awayScore": 5
   },
   {
     "id": 537368,
     "utcDate": "2026-06-27T03:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
     "homeTeam": "Egypt",
@@ -841,7 +841,7 @@
     "status": "TIMED",
     "stage": "LAST_32",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "Ivory Coast",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
