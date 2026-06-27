@@ -728,24 +728,24 @@
   {
     "id": 537413,
     "utcDate": "2026-06-27T21:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
     "homeTeam": "Panama",
     "awayTeam": "England",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537414,
     "utcDate": "2026-06-27T21:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
     "homeTeam": "Croatia",
     "awayTeam": "Ghana",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "id": 537407,
