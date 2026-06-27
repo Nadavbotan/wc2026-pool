@@ -684,18 +684,18 @@
   {
     "id": 537373,
     "utcDate": "2026-06-27T00:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
     "homeTeam": "Uruguay",
     "awayTeam": "Spain",
     "homeScore": 0,
-    "awayScore": 0
+    "awayScore": 1
   },
   {
     "id": 537374,
     "utcDate": "2026-06-27T00:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
     "homeTeam": "Cape Verde Islands",
@@ -706,24 +706,24 @@
   {
     "id": 537367,
     "utcDate": "2026-06-27T03:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
     "homeTeam": "New Zealand",
     "awayTeam": "Belgium",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 4
   },
   {
     "id": 537368,
     "utcDate": "2026-06-27T03:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
     "homeTeam": "Egypt",
     "awayTeam": "Iran",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "id": 537413,
