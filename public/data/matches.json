@@ -973,7 +973,7 @@
     "status": "TIMED",
     "stage": "LAST_16",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "Canada",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
