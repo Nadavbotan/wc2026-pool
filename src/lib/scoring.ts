@@ -20,6 +20,7 @@ export function computeScore(p: Participant, matches: Match[]): ScoreBreakdown {
   const predMap = p.groupMatches
 
   for (const m of groupMatches) {
+    if (!m.homeTeam || !m.awayTeam) continue
     const key = matchKey(m.homeTeam, m.awayTeam)
     const pred = predMap[key]
     if (!pred || m.homeScore === null || m.awayScore === null) continue
@@ -89,13 +90,14 @@ export function computeScore(p: Participant, matches: Match[]): ScoreBreakdown {
 }
 
 function matchWinner(m: Match): string | null {
+  if (!m.homeTeam || !m.awayTeam) return null
   if (m.homeScore === null || m.awayScore === null) return null
   if (m.homeScore > m.awayScore) return m.homeTeam
   if (m.awayScore > m.homeScore) return m.awayTeam
   return null
 }
 
-function getKnockoutAdvancers(matches: Match[], stage: string): Set<string> {
+export function getKnockoutAdvancers(matches: Match[], stage: string): Set<string> {
   const result = new Set<string>()
   for (const m of matches) {
     if (m.stage !== stage || m.status !== 'FINISHED') continue
@@ -105,11 +107,43 @@ function getKnockoutAdvancers(matches: Match[], stage: string): Set<string> {
   return result
 }
 
+export type KnockoutPickStatus = 'confirmed' | 'eliminated' | 'pending'
+
+export function getKnockoutPickStatus(
+  team: string,
+  stage: Match['stage'],
+  priorStage: Match['stage'] | null,
+  matches: Match[],
+): KnockoutPickStatus {
+  const advancers = getKnockoutAdvancers(matches, stage)
+  if (advancers.has(team)) return 'confirmed'
+
+  if (priorStage) {
+    const priorWinners = getKnockoutAdvancers(matches, priorStage)
+    const priorMatches = matches.filter(m => m.stage === priorStage)
+    const priorDone = priorMatches.length > 0 && priorMatches.every(m => m.status === 'FINISHED')
+    if (priorDone && !priorWinners.has(team)) return 'eliminated'
+  }
+
+  for (const m of matches) {
+    if (m.stage !== stage || m.status !== 'FINISHED') continue
+    if (m.homeTeam !== team && m.awayTeam !== team) continue
+    return matchWinner(m) === team ? 'confirmed' : 'eliminated'
+  }
+
+  return 'pending'
+}
+
+export function getMatchWinner(m: Match): string | null {
+  return matchWinner(m)
+}
+
 export function computeActualGroupRankings(matches: Match[]): Record<string, string[]> {
   const groups: Record<string, Record<string, { pts: number; gd: number; gf: number }>> = {}
 
   for (const m of matches) {
     if (m.stage !== 'GROUP_STAGE' || m.status !== 'FINISHED') continue
+    if (!m.homeTeam || !m.awayTeam) continue
     if (m.homeScore === null || m.awayScore === null) continue
     const grp = (m.group ?? '').replace('GROUP_', '')
     if (!grp) continue

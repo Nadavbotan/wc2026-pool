@@ -30,8 +30,8 @@ jobs:
                   'status': m['status'],
                   'stage': m['stage'],
                   'group': m.get('group'),
-                  'homeTeam': m['homeTeam']['name'],
-                  'awayTeam': m['awayTeam']['name'],
+                  'homeTeam': m['homeTeam']['name'] if m['homeTeam'] else None,
+                  'awayTeam': m['awayTeam']['name'] if m['awayTeam'] else None,
                   'homeScore': m['score']['fullTime'].get('home'),
                   'awayScore': m['score']['fullTime'].get('away'),
               })

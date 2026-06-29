@@ -46,8 +46,10 @@ export default function MatchCard({ match, prediction }: Props) {
 
       <div className="flex items-center justify-between">
         <div className="flex flex-col items-center gap-1 w-[38%]">
-          <span className="text-3xl">{flag(match.homeTeam)}</span>
-          <span className="text-sm font-semibold text-white text-center">{shortName(match.homeTeam)}</span>
+          <span className="text-3xl">{match.homeTeam ? flag(match.homeTeam) : '❓'}</span>
+          <span className="text-sm font-semibold text-white text-center">
+            {match.homeTeam ? shortName(match.homeTeam) : 'TBD'}
+          </span>
         </div>
 
         <div className="flex flex-col items-center gap-1.5">
@@ -75,8 +77,10 @@ export default function MatchCard({ match, prediction }: Props) {
         </div>
 
         <div className="flex flex-col items-center gap-1 w-[38%]">
-          <span className="text-3xl">{flag(match.awayTeam)}</span>
-          <span className="text-sm font-semibold text-white text-center">{shortName(match.awayTeam)}</span>
+          <span className="text-3xl">{match.awayTeam ? flag(match.awayTeam) : '❓'}</span>
+          <span className="text-sm font-semibold text-white text-center">
+            {match.awayTeam ? shortName(match.awayTeam) : 'TBD'}
+          </span>
         </div>
       </div>
     </div>

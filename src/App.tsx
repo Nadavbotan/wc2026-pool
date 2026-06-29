@@ -7,6 +7,7 @@ import LoginView from './views/LoginView'
 import NextUpView from './views/NextUpView'
 import MyScoreView from './views/MyScoreView'
 import GroupsView from './views/GroupsView'
+import KnockoutView from './views/KnockoutView'
 import LeaderboardView from './views/LeaderboardView'
 import BottomNav from './components/BottomNav'
 import participantsData from './data/participants.json'
@@ -57,6 +58,9 @@ export default function App() {
           } />
           <Route path="/groups" element={
             <GroupsView matches={matches} participant={currentParticipant} />
+          } />
+          <Route path="/bracket" element={
+            <KnockoutView matches={matches} participant={currentParticipant} />
           } />
           <Route path="/leaderboard" element={
             <LeaderboardView leaderboard={leaderboard} currentName="Nadav" />

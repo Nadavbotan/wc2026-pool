@@ -12,6 +12,7 @@ interface Props {
 const GROUPS = ['A','B','C','D','E','F','G','H','I','J','K','L']
 
 function getPrediction(p: Participant, m: Match) {
+  if (!m.homeTeam || !m.awayTeam) return undefined
   return p.groupMatches[`${m.homeTeam}|${m.awayTeam}`]
 }
 
