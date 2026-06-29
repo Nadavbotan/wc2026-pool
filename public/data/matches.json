@@ -805,13 +805,13 @@
   {
     "id": 537423,
     "utcDate": "2026-06-29T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Brazil",
     "awayTeam": "Japan",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "id": 537415,
