@@ -816,13 +816,13 @@
   {
     "id": 537415,
     "utcDate": "2026-06-29T20:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Germany",
     "awayTeam": "Paraguay",
-    "homeScore": 2,
-    "awayScore": 1
+    "homeScore": 5,
+    "awayScore": 6
   },
   {
     "id": 537418,
