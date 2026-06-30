@@ -832,7 +832,7 @@
     "group": null,
     "homeTeam": "Netherlands",
     "awayTeam": "Morocco",
-    "homeScore": 4,
+    "homeScore": 3,
     "awayScore": 4
   },
   {
@@ -974,7 +974,7 @@
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "Canada",
-    "awayTeam": null,
+    "awayTeam": "Morocco",
     "homeScore": null,
     "awayScore": null
   },
@@ -984,7 +984,7 @@
     "status": "TIMED",
     "stage": "LAST_16",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "Paraguay",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -995,7 +995,7 @@
     "status": "TIMED",
     "stage": "LAST_16",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "Brazil",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
