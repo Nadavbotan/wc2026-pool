@@ -849,13 +849,13 @@
   {
     "id": 537416,
     "utcDate": "2026-06-30T21:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "France",
     "awayTeam": "Sweden",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "id": 537425,
