@@ -821,19 +821,19 @@
     "group": null,
     "homeTeam": "Germany",
     "awayTeam": "Paraguay",
-    "homeScore": 5,
-    "awayScore": 6
+    "homeScore": 4,
+    "awayScore": 5
   },
   {
     "id": 537418,
     "utcDate": "2026-06-30T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Netherlands",
     "awayTeam": "Morocco",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 4,
+    "awayScore": 4
   },
   {
     "id": 537424,
