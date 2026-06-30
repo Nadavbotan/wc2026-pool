@@ -838,13 +838,13 @@
   {
     "id": 537424,
     "utcDate": "2026-06-30T17:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Ivory Coast",
     "awayTeam": "Norway",
-    "homeScore": 0,
-    "awayScore": 1
+    "homeScore": 1,
+    "awayScore": 2
   },
   {
     "id": 537416,
