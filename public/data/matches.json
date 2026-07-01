@@ -882,13 +882,13 @@
   {
     "id": 537422,
     "utcDate": "2026-07-01T20:00:00Z",
-    "status": "LIVE",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Belgium",
     "awayTeam": "Senegal",
-    "homeScore": 0,
-    "awayScore": 0
+    "homeScore": 2,
+    "awayScore": 2
   },
   {
     "id": 537421,
