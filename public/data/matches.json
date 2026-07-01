@@ -860,13 +860,13 @@
   {
     "id": 537425,
     "utcDate": "2026-07-01T01:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Mexico",
     "awayTeam": "Ecuador",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 2,
+    "awayScore": 0
   },
   {
     "id": 537426,
