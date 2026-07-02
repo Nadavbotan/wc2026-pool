@@ -882,24 +882,24 @@
   {
     "id": 537422,
     "utcDate": "2026-07-01T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Belgium",
     "awayTeam": "Senegal",
-    "homeScore": 2,
+    "homeScore": 3,
     "awayScore": 2
   },
   {
     "id": 537421,
     "utcDate": "2026-07-02T00:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "United States",
     "awayTeam": "Bosnia-Herzegovina",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537420,
