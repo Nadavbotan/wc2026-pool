@@ -904,12 +904,12 @@
   {
     "id": 537420,
     "utcDate": "2026-07-02T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Spain",
     "awayTeam": "Austria",
-    "homeScore": 1,
+    "homeScore": 3,
     "awayScore": 0
   },
   {
