@@ -1006,8 +1006,8 @@
     "status": "TIMED",
     "stage": "LAST_16",
     "group": null,
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "Mexico",
+    "awayTeam": "England",
     "homeScore": null,
     "awayScore": null
   },
@@ -1028,8 +1028,8 @@
     "status": "TIMED",
     "stage": "LAST_16",
     "group": null,
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "United States",
+    "awayTeam": "Belgium",
     "homeScore": null,
     "awayScore": null
   },
