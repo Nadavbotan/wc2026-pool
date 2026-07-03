@@ -937,13 +937,13 @@
   {
     "id": 537428,
     "utcDate": "2026-07-03T18:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Australia",
     "awayTeam": "Egypt",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537427,
