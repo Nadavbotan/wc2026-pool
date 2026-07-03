@@ -915,13 +915,13 @@
   {
     "id": 537419,
     "utcDate": "2026-07-02T23:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Portugal",
     "awayTeam": "Croatia",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "id": 537429,
