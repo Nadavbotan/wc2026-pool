@@ -948,24 +948,24 @@
   {
     "id": 537427,
     "utcDate": "2026-07-03T22:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Argentina",
     "awayTeam": "Cape Verde Islands",
-    "homeScore": 1,
-    "awayScore": 1
+    "homeScore": 3,
+    "awayScore": 2
   },
   {
     "id": 537430,
     "utcDate": "2026-07-04T01:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Colombia",
     "awayTeam": "Ghana",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "id": 537376,
