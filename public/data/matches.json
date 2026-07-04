@@ -970,13 +970,13 @@
   {
     "id": 537376,
     "utcDate": "2026-07-04T17:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "Canada",
     "awayTeam": "Morocco",
     "homeScore": 0,
-    "awayScore": 0
+    "awayScore": 3
   },
   {
     "id": 537375,
