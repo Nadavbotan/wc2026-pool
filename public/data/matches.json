@@ -981,13 +981,13 @@
   {
     "id": 537375,
     "utcDate": "2026-07-04T21:00:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "Paraguay",
     "awayTeam": "France",
     "homeScore": 0,
-    "awayScore": 0
+    "awayScore": 1
   },
   {
     "id": 537377,
