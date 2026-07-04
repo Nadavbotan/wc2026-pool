@@ -1017,8 +1017,8 @@
     "status": "TIMED",
     "stage": "LAST_16",
     "group": null,
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "Portugal",
+    "awayTeam": "Spain",
     "homeScore": null,
     "awayScore": null
   },
@@ -1039,8 +1039,8 @@
     "status": "TIMED",
     "stage": "LAST_16",
     "group": null,
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "Argentina",
+    "awayTeam": "Egypt",
     "homeScore": null,
     "awayScore": null
   },
@@ -1050,8 +1050,8 @@
     "status": "TIMED",
     "stage": "LAST_16",
     "group": null,
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "Switzerland",
+    "awayTeam": "Colombia",
     "homeScore": null,
     "awayScore": null
   },
