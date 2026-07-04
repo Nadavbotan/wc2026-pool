@@ -948,13 +948,13 @@
   {
     "id": 537427,
     "utcDate": "2026-07-03T22:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "stage": "LAST_32",
     "group": null,
     "homeTeam": "Argentina",
     "awayTeam": "Cape Verde Islands",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "id": 537430,
