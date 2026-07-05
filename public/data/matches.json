@@ -1061,8 +1061,8 @@
     "status": "TIMED",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "France",
+    "awayTeam": "Morocco",
     "homeScore": null,
     "awayScore": null
   },
