@@ -992,18 +992,18 @@
   {
     "id": 537377,
     "utcDate": "2026-07-05T20:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "Brazil",
     "awayTeam": "Norway",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 2
   },
   {
     "id": 537378,
-    "utcDate": "2026-07-06T00:00:00Z",
-    "status": "TIMED",
+    "utcDate": "2026-07-06T01:00:00Z",
+    "status": "2026-07-06 01:00:00Z",
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "Mexico",
