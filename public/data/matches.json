@@ -1047,13 +1047,13 @@
   {
     "id": 537382,
     "utcDate": "2026-07-07T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "Switzerland",
     "awayTeam": "Colombia",
-    "homeScore": 0,
-    "awayScore": 0
+    "homeScore": 4,
+    "awayScore": 3
   },
   {
     "id": 537383,
