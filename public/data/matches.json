@@ -1036,13 +1036,13 @@
   {
     "id": 537381,
     "utcDate": "2026-07-07T16:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "Argentina",
     "awayTeam": "Egypt",
-    "homeScore": 0,
-    "awayScore": 1
+    "homeScore": 3,
+    "awayScore": 2
   },
   {
     "id": 537382,
