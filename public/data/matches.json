@@ -1072,8 +1072,8 @@
     "status": "TIMED",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "Spain",
+    "awayTeam": "Belgium",
     "homeScore": null,
     "awayScore": null
   },
