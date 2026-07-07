@@ -1025,13 +1025,13 @@
   {
     "id": 537380,
     "utcDate": "2026-07-07T00:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "United States",
     "awayTeam": "Belgium",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 1,
+    "awayScore": 4
   },
   {
     "id": 537381,
