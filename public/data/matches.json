@@ -1058,12 +1058,12 @@
   {
     "id": 537383,
     "utcDate": "2026-07-09T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "QUARTER_FINALS",
     "group": null,
     "homeTeam": "France",
     "awayTeam": "Morocco",
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 0
   },
   {
