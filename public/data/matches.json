@@ -1105,7 +1105,7 @@
     "status": "TIMED",
     "stage": "SEMI_FINALS",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "France",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
