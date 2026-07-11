@@ -1080,13 +1080,13 @@
   {
     "id": 537385,
     "utcDate": "2026-07-11T21:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "stage": "QUARTER_FINALS",
     "group": null,
     "homeTeam": "Norway",
     "awayTeam": "England",
-    "homeScore": 2,
-    "awayScore": 1
+    "homeScore": 1,
+    "awayScore": 2
   },
   {
     "id": 537386,
