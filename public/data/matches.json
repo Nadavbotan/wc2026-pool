@@ -1003,7 +1003,7 @@
   {
     "id": 537378,
     "utcDate": "2026-07-06T01:00:00Z",
-    "status": "2026-07-06 01:00:00Z",
+    "status": "FINISHED",
     "stage": "LAST_16",
     "group": null,
     "homeTeam": "Mexico",
@@ -1091,12 +1091,12 @@
   {
     "id": 537386,
     "utcDate": "2026-07-12T01:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "stage": "QUARTER_FINALS",
     "group": null,
     "homeTeam": "Argentina",
     "awayTeam": "Switzerland",
-    "homeScore": 1,
+    "homeScore": 3,
     "awayScore": 1
   },
   {
@@ -1116,8 +1116,8 @@
     "status": "TIMED",
     "stage": "SEMI_FINALS",
     "group": null,
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "England",
+    "awayTeam": "Argentina",
     "homeScore": null,
     "awayScore": null
   },
