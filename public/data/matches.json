@@ -1102,13 +1102,13 @@
   {
     "id": 537387,
     "utcDate": "2026-07-14T19:00:00Z",
-    "status": "TIMED",
+    "status": "LIVE",
     "stage": "SEMI_FINALS",
     "group": null,
     "homeTeam": "France",
     "awayTeam": "Spain",
-    "homeScore": null,
-    "awayScore": null
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "id": 537388,
