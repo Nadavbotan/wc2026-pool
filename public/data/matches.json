@@ -1127,7 +1127,7 @@
     "status": "TIMED",
     "stage": "THIRD_PLACE",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "France",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
@@ -1138,7 +1138,7 @@
     "status": "TIMED",
     "stage": "FINAL",
     "group": null,
-    "homeTeam": null,
+    "homeTeam": "Spain",
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null
