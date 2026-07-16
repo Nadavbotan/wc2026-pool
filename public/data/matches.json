@@ -1128,7 +1128,7 @@
     "stage": "THIRD_PLACE",
     "group": null,
     "homeTeam": "France",
-    "awayTeam": null,
+    "awayTeam": "England",
     "homeScore": null,
     "awayScore": null
   },
@@ -1139,7 +1139,7 @@
     "stage": "FINAL",
     "group": null,
     "homeTeam": "Spain",
-    "awayTeam": null,
+    "awayTeam": "Argentina",
     "homeScore": null,
     "awayScore": null
   }
