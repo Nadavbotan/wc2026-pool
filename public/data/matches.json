@@ -1135,12 +1135,12 @@
   {
     "id": 537390,
     "utcDate": "2026-07-19T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "LIVE",
     "stage": "FINAL",
     "group": null,
     "homeTeam": "Spain",
     "awayTeam": "Argentina",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0
   }
 ]
